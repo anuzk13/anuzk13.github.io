@@ -3,7 +3,6 @@
 
 	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
 	form,fieldset,input,textarea,p,blockquote,th,td {
-	    padding: 0;
 	    margin: 0;
 	    font-family: 'Arvo', serif;
 	    color: white;
@@ -15,7 +14,7 @@
 /* Style for our header texts
 	* --------------------------------------- */
 	span.title{
-		font-size: 5em;
+		font-size: 6vw;
 		color: black;
 		font-weight: bold;
 	}
@@ -73,29 +72,29 @@
 	}
 
 
-	#block { 
+	#block {
 		position: absolute;
 		top: 40%;
-		right: 0; 
-	    background-color: black; 
-	    color: white;
-	    width: 70%; 
-	    text-align: center; 
-	    line-height:30px;
-	    padding:3px 0;
-	    float:left;
+		right: 0;
+		background-color: black;
+		color: white;
+		width: 70%;
+		text-align: center;
+		line-height: 1.4vw;
+		padding:3px 0;
+		float:left;
 	}
 
-	.block2 { 
+	.block2 {
 		display: inline-block;
 		top: 30%;
-		right: 0; 
-	    background-color: black; 
-	    color: white;
-	    width: 40%; 
-	    text-align: left; 
-	    padding:5em;
-	    height: 50%;
+		right: 0;
+		background-color: black;
+		color: white;
+		width: 30vw;
+		text-align: left;
+		padding:5em;
+		height: 50%;
 	}
 	.pull-left{
    		float:left;
@@ -182,8 +181,11 @@
 * --------------------------------------- */
 	
 	.bio_text {
+		font-size: 0.8vw;
 		background-color: white;
 		color: black;
+		padding: 1em;
+		/* height: 50%; */
 	}
 	.content {
 	    float: left;
@@ -192,7 +194,7 @@
 	    padding-top: 5em;
 	}
 	    .title {
-	        font-size: 48px;
+	        font-size: 2vw;
 	        font-weight: normal;
 	        line-height: 1;
 	    }
@@ -249,12 +251,13 @@
 	    cursor: pointer;
 	    display: block;
 	    z-index: 9;
-	    position: absolute; /*newly added*/
+	    position: absolute;/*newly added*/
 	    top: 70%;/*newly added*/
 	    background: rgba(0,0,0,0.85);
 	    min-height: 5%;
 	    max-width: 20%;
 	    font-weight: bold;
+	    font-size: 1vw;
 	    padding: 1em;
 	    text-align: left;
 	}
