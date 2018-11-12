@@ -1,1 +1,1 @@
-window.location.replace("http://anuzk13.github.io/portfolio");
+window.location.replace("https://amcard.myportfolio.com");
