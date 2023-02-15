@@ -1,1 +1,1 @@
-window.location.replace("https://amcard.myportfolio.com");
+// window.location.replace("https://amcard.myportfolio.com");
